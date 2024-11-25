@@ -11,4 +11,7 @@ void main()
     }else{
         printf("b is greater than a",b,a);
     }
+
+
+    printf("a and b are equal",a,b);
 }
