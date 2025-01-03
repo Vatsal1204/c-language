@@ -8,7 +8,7 @@ struct Marksheet
     int mathematics;
     int physics;
 };
-void main( average){
+void main(float average){
     int total;
     struct Marksheet student1, student2,student3,student4,student5;
     student1.roll_number=121;
@@ -46,34 +46,47 @@ void main( average){
     printf("mathematics:%d\n",student1.mathematics);
     printf("physics:%d\n",student1.physics);
     total=student1.chemistry+student1.mathematics+student1.physics;
+    printf("total is %d/300 \n",total);
     average=total/3;
-    printf("percentage of student 1 is %d\n",average);
+    printf("percentage of student 1 is %f\n",average);
+
+
     printf("name:%s\n",student2.name);
     printf("chemistry:%d\n",student2.chemistry);
     printf("mathematics:%d\n",student2.mathematics);
     printf("physics:%d\n",student2.physics);
     total=student2.chemistry+student2.mathematics+student2.physics;
+    printf("total is %d/300\n",total);
     average=total/3;
-    printf("percentage of student 2 is %d\n",average);
+    printf("percentage of student 2 is %f\n",average);
+
+
     printf("name:%s\n",student3.name);
     printf("chemistry:%d\n",student3.chemistry);
     printf("mathematics:%d\n",student3.mathematics);
     printf("physics:%d\n",student3.physics);
     total=student3.chemistry+student3.mathematics+student3.physics;
+    printf("total is %d/300\n",total);
     average=total/3;
-    printf("percentage of student 3 is %d\n",average);
+    printf("percentage of student 3 is %f\n",average);
+
+
     printf("name:%s\n",student4.name);
     printf("chemistry:%d\n",student4.chemistry);
     printf("mathematics:%d\n",student4.mathematics);
     printf("physics:%d\n",student4.physics);
     total=student4.chemistry+student4.mathematics+student4.physics;
+    printf("total is %d/300\n",total);
     average=total/3;
-    printf("percentage of student 4 is %d\n",average);
+    printf("percentage of student 4 is %f\n",average);
+
+
     printf("name:%s\n",student5.name);
     printf("chemistry:%d\n",student5.chemistry);
     printf("mathematics:%d\n",student5.mathematics);
     printf("physics:%d\n",student5.physics);
     total=student5.chemistry+student5.mathematics+student5.physics;
+    printf("total is %d/300\n",total);
     average=total/3;
-    printf("percentage of student 5 is %d\n",average);
+    printf("percentage of student 5 is %f\n",average);
 }
